@@ -2112,7 +2112,7 @@
           <version>1.5</version>
           <configuration>
             <resourceBundles>
-              <resourceBundle>io.netty:netty-dev-tools:${project.version}</resourceBundle>
+              <resourceBundle>io.netty:netty-dev-tools:${project.parent.version}</resourceBundle>
             </resourceBundles>
             <outputDirectory>${netty.dev.tools.directory}</outputDirectory>
             <!-- don't include netty-dev-tools in artifacts -->
